@@ -1,0 +1,1 @@
+# Red_Hat_Enterprise_Linux_Technical_Overview-RH024-
