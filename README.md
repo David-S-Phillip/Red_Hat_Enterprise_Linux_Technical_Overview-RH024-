@@ -3,6 +3,8 @@
 A hands-on technical log documenting my journey through the **Red Hat Enterprise Linux Technical Overview (RH024)** course, terminal configuration practice, and foundational Linux system administration skills.
 
 ---
+### WTC tracking code
+WTC-YF84PH2W
 
 ## Overview
 
