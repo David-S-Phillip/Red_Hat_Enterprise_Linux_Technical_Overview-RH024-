@@ -46,3 +46,12 @@ This repository serves as a public record of my practical learning with Enterpri
 │   └── web-console-notes.md           # Cockpit & system service configurations
 └── 03-labs-and-terminal-output/
     └── terminal-logs.txt              # Captured terminal output and execution logs
+    
+```    
+
+## What is Red Hat Enterprise Linux  ? 
+Red Hat Enterprise Linux (RHEL) is a Linux operating system designed mainly for businesses and large companies.
+Unlike Linux Mint or regular Ubuntu, which are often used on personal computers, RHEL is mainly used on servers and cloud systems.
+It helps companies run websites, databases, business applications, and other important services. It is built to be stable, secure, and reliable.
+RHEL can run on physical servers, virtual machines, and cloud platforms such as AWS, Microsoft Azure, and Google Cloud.
+In simple terms, RHEL is a version of Linux made for businesses that need their computer systems to work safely and reliably.
