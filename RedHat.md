@@ -1,48 +1,19 @@
-# Red Hat Enterprise Linux Technical Overview (RH024) — Learning & Practice Log
+# What RHEL IS 
 
-A hands-on technical log documenting my journey through the **Red Hat Enterprise Linux Technical Overview (RH024)** course, terminal configuration practice, and foundational Linux system administration skills.
+Red Hat Enterprise Linux (RHEL) is an enterprise-grade, open-source Linux distribution developed by Red Hat for commercial environments.
 
----
+Key characteristics:
 
-## Overview
+    Subscription Model: Instead of charging for the software itself, Red Hat sells subscriptions that cover 24/7 technical support, security patches, bug fixes, and long-term stability guarantees (typically 10-year support lifecycles per major release).
 
-This repository serves as a public record of my practical learning with Enterprise Linux concepts, core system tools, system management workflows, and text manipulation utilities.
+    Enterprise Stability: Packages and packages' core library versions are backported and frozen to ensure applications do not break during updates, making it a primary choice for mission-critical production servers, cloud infrastructure, and enterprise workloads.
 
-* **Course:** Red Hat Enterprise Linux Technical Overview (RH024)
-* **OS Environment:** Linux / Red Hat Enterprise Linux (RHEL)
-* **Focus Areas:** Core CLI Navigation, Vim Editing, System Services, Storage Basics, and Package Management
+    Core Technologies: Uses the dnf/rpm package management system, Systemd for service initialization, SELinux (Security-Enhanced Linux) for mandatory access control by default, and Cockpit for web-based GUI management.
 
----
+    Upstream Ecosystem: Works in a tri-tier model:
 
-## Key Topics Covered & Hands-On Practice
+        Fedora: Cutting-edge community project where new features are tested first.
 
-### 1. Command Line Foundations & Text Editing
-- **Terminal Navigation:** Executing fundamental Linux file manipulation, directory traversal, and process inspection commands.
-- **Learning how to use VIM (`vimtutor`):** Completed full interactive Vim practice sessions, this gave the basics of vim:
-    - Navigation keys (`h`, `j`, `k`, `l`) and word movement (`w`, `b`).
-    - Text insertion, deletion (`x`, `dw`, `dd`), and replacement (`r`, `cw`).
-    - Search, replace patterns (`/`, `?`), and visual line selection.
-    - File saving, quitting (`:w`, `:q!`, `:wq`), and buffer management.
+        CentOS Stream: Midstream development preview representing the upcoming minor release of RHEL.
 
-### 2. System Architecture & Management
-- **Image Mode & Containerized RHEL:** Understanding `bootc` for transactional OS updates and containerized image-based Linux deployments.
-- **RHEL Web Console (Cockpit):** Managing system performance, network interfaces, storage, and system services via the web GUI interface.
-- **System Services (`systemd`):** Monitoring system logs, inspecting service statuses, and starting/stopping system daemons.
-
-### 3. Monitoring & Security Fundamentals
-- **Red Hat Insights:** Using Vulnerability Management and Image Builder to inspect system health, track security vulnerabilities, and construct customized deployment images.
-- **User & File Permissions:** Managing user access levels, basic file ownership, and execution rights.
-
----
-
-## Repository Structure
-
-```text
-├── README.md                           # Course overview & learning summary
-├── 01-cli-and-vim/
-│   ├── vimtutor-notes.md              # Vim shortcut reference & command log
-│   └── cli-navigation-cheat-sheet.md  # Core bash/RHEL command summaries
-├── 02-rhel-systemd-and-console/
-│   └── web-console-notes.md           # Cockpit & system service configurations
-└── 03-labs-and-terminal-output/
-    └── terminal-logs.txt              # Captured terminal output and execution logs
+        RHEL: The hardened, battle-tested commercial product built from CentOS Stream.
